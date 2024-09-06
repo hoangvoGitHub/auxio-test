@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/Android/Auxio/media/libraries/decoder_ffmpeg/.cxx/Debug/u1a4b6ct/x86",
+  "command": "C:\\Users\\THISPC~1\\AppData\\Local\\Android\\Sdk\\ndk\\263~1.115\\TOOLCH~1\\llvm\\prebuilt\\WINDOW~1\\bin\\CLANG_~1.EXE --target=i686-none-linux-android21 --sysroot=\"C:/Users/This PC/AppData/Local/Android/Sdk/ndk/26.3.11579264/toolchains/llvm/prebuilt/windows-x86_64/sysroot\" -DffmpegJNI_EXPORTS -ID:/Android/Auxio/media/libraries/decoder_ffmpeg/src/main/jni/ffmpeg -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++11 -o CMakeFiles\\ffmpegJNI.dir\\ffmpeg_jni.cc.o -c D:\\Android\\Auxio\\media\\libraries\\decoder_ffmpeg\\src\\main\\jni\\ffmpeg_jni.cc",
+  "file": "D:\\Android\\Auxio\\media\\libraries\\decoder_ffmpeg\\src\\main\\jni\\ffmpeg_jni.cc"
+}
+]

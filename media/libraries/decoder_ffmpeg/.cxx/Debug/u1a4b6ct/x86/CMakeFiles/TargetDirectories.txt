@@ -1,0 +1,3 @@
+D:/Android/Auxio/media/libraries/decoder_ffmpeg/.cxx/Debug/u1a4b6ct/x86/CMakeFiles/ffmpegJNI.dir
+D:/Android/Auxio/media/libraries/decoder_ffmpeg/.cxx/Debug/u1a4b6ct/x86/CMakeFiles/edit_cache.dir
+D:/Android/Auxio/media/libraries/decoder_ffmpeg/.cxx/Debug/u1a4b6ct/x86/CMakeFiles/rebuild_cache.dir

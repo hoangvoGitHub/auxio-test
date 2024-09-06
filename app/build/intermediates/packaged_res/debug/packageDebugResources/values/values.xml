@@ -1,0 +1,1894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="entries_bar_action">
+        <item>@string/set_action_mode_next</item>
+        <item>@string/set_action_mode_repeat</item>
+        <item>@string/lbl_shuffle</item>
+    </string-array>
+    <string-array name="entries_cover_mode">
+        <item>@string/set_cover_mode_off</item>
+        <item>@string/set_cover_mode_media_store</item>
+        <item>@string/set_cover_mode_quality</item>
+    </string-array>
+    <integer-array name="entries_notif_action">
+        <item>@string/set_action_mode_repeat</item>
+        <item>@string/lbl_shuffle</item>
+    </integer-array>
+    <string-array name="entries_play_in_list_with">
+        <item>@string/set_play_song_from_all</item>
+        <item>@string/set_play_song_from_album</item>
+        <item>@string/set_play_song_from_artist</item>
+        <item>@string/set_play_song_from_genre</item>
+        <item>@string/set_play_song_by_itself</item>
+    </string-array>
+    <string-array name="entries_play_in_parent_with">
+        <item>@string/set_play_song_none</item>
+        <item>@string/set_play_song_from_all</item>
+        <item>@string/set_play_song_from_album</item>
+        <item>@string/set_play_song_from_artist</item>
+        <item>@string/set_play_song_from_genre</item>
+        <item>@string/set_play_song_by_itself</item>
+    </string-array>
+    <string-array name="entries_replay_gain">
+        <item>@string/set_replay_gain_mode_off</item>
+        <item>@string/set_replay_gain_mode_track</item>
+        <item>@string/set_replay_gain_mode_album</item>
+        <item>@string/set_replay_gain_mode_dynamic</item>
+    </string-array>
+    <string-array name="entries_theme">
+        <item>@string/set_theme_auto</item>
+        <item>@string/set_theme_day</item>
+        <item>@string/set_theme_night</item>
+    </string-array>
+    <array name="icons_theme">
+        <item>@drawable/ic_auto_24</item>
+        <item>@drawable/ic_light_24</item>
+        <item>@drawable/ic_dark_24</item>
+    </array>
+    <integer-array name="values_bar_action">
+        <item>@integer/action_mode_next</item>
+        <item>@integer/action_mode_repeat</item>
+        <item>@integer/action_mode_shuffle</item>
+    </integer-array>
+    <integer-array name="values_cover_mode">
+        <item>@integer/cover_mode_off</item>
+        <item>@integer/cover_mode_media_store</item>
+        <item>@integer/cover_mode_quality</item>
+    </integer-array>
+    <integer-array name="values_notif_action">
+        <item>@integer/action_mode_repeat</item>
+        <item>@integer/action_mode_shuffle</item>
+    </integer-array>
+    <integer-array name="values_play_in_list_with">
+        <item>@integer/play_song_from_all</item>
+        <item>@integer/play_song_from_album</item>
+        <item>@integer/play_song_from_artist</item>
+        <item>@integer/play_song_from_genre</item>
+        <item>@integer/play_song_by_itself</item>
+    </integer-array>
+    <integer-array name="values_play_in_parent_with">
+        <item>@integer/play_song_none</item>
+        <item>@integer/play_song_from_all</item>
+        <item>@integer/play_song_from_album</item>
+        <item>@integer/play_song_from_artist</item>
+        <item>@integer/play_song_from_genre</item>
+        <item>@integer/play_song_by_itself</item>
+    </integer-array>
+    <integer-array name="values_replay_gain">
+        <item>@integer/replay_gain_off</item>
+        <item>@integer/replay_gain_track</item>
+        <item>@integer/replay_gain_album</item>
+        <item>@integer/replay_gain_dynamic</item>
+    </integer-array>
+    <integer-array name="values_theme">
+        <item>@integer/theme_auto</item>
+        <item>@integer/theme_light</item>
+        <item>@integer/theme_dark</item>
+    </integer-array>
+    <color name="blue_error">#BA1B1B</color>
+    <color name="blue_error_container">#FFDAD4</color>
+    <color name="blue_on_error">#FFFFFF</color>
+    <color name="blue_on_error_container">#410001</color>
+    <color name="blue_on_primary">#FFFFFF</color>
+    <color name="blue_on_primary_container">#001D36</color>
+    <color name="blue_on_secondary">#FFFFFF</color>
+    <color name="blue_on_secondary_container">#101C2B</color>
+    <color name="blue_on_surface">#1B1B1B</color>
+    <color name="blue_on_surface_inverse">#F1F0F4</color>
+    <color name="blue_on_surface_variant">#42474E</color>
+    <color name="blue_on_tertiary">#FFFFFF</color>
+    <color name="blue_on_tertiary_container">#251432</color>
+    <color name="blue_primary">#0061A6</color>
+    <color name="blue_primary_container">#D0E4FF</color>
+    <color name="blue_primary_inverse">#9CCAFF</color>
+    <color name="blue_secondary">#535F70</color>
+    <color name="blue_secondary_container">#D6E3F7</color>
+    <color name="blue_surface">#FDFCFF</color>
+    <color name="blue_surface_inverse">#2F3033</color>
+    <color name="blue_surface_variant">#DFE2EB</color>
+    <color name="blue_tertiary">#6B5778</color>
+    <color name="blue_tertiary_container">#F3DAFF</color>
+    <color name="brown_error">#BA1B1B</color>
+    <color name="brown_error_container">#FFDAD4</color>
+    <color name="brown_on_error">#FFFFFF</color>
+    <color name="brown_on_error_container">#410001</color>
+    <color name="brown_on_primary">#FFFFFF</color>
+    <color name="brown_on_primary_container">#2C160D</color>
+    <color name="brown_on_secondary">#FFFFFF</color>
+    <color name="brown_on_secondary_container">#380C00</color>
+    <color name="brown_on_surface">#201A18</color>
+    <color name="brown_on_surface_inverse">#FCEEEA</color>
+    <color name="brown_on_surface_variant">#52433E</color>
+    <color name="brown_on_tertiary">#FFFFFF</color>
+    <color name="brown_on_tertiary_container">#221B00</color>
+    <color name="brown_primary">#77574C</color>
+    <color name="brown_primary_container">#FFDBCD</color>
+    <color name="brown_primary_inverse">#E7BEB0</color>
+    <color name="brown_secondary">#9A4523</color>
+    <color name="brown_secondary_container">#FFDBCD</color>
+    <color name="brown_surface">#FCFCFC</color>
+    <color name="brown_surface_inverse">#362F2D</color>
+    <color name="brown_surface_variant">#F5DED6</color>
+    <color name="brown_tertiary">#695E2F</color>
+    <color name="brown_tertiary_container">#F1E2A7</color>
+    <color name="chrome_translucent">#80000000</color>
+    <color name="chrome_transparent_ish">#01ffffff</color>
+    <color name="cyan_error">#BA1B1B</color>
+    <color name="cyan_error_container">#FFDAD4</color>
+    <color name="cyan_on_error">#FFFFFF</color>
+    <color name="cyan_on_error_container">#410001</color>
+    <color name="cyan_on_primary">#FFFFFF</color>
+    <color name="cyan_on_primary_container">#001F25</color>
+    <color name="cyan_on_secondary">#FFFFFF</color>
+    <color name="cyan_on_secondary_container">#051F23</color>
+    <color name="cyan_on_surface">#191C1D</color>
+    <color name="cyan_on_surface_inverse">#EFF1F2</color>
+    <color name="cyan_on_surface_variant">#3F484A</color>
+    <color name="cyan_on_tertiary">#FFFFFF</color>
+    <color name="cyan_on_tertiary_container">#101A37</color>
+    <color name="cyan_primary">#006877</color>
+    <color name="cyan_primary_container">#9CEFFF</color>
+    <color name="cyan_primary_inverse">#44D8F1</color>
+    <color name="cyan_secondary">#4A6267</color>
+    <color name="cyan_secondary_container">#CDE7ED</color>
+    <color name="cyan_surface">#FBFDFE</color>
+    <color name="cyan_surface_inverse">#2D3132</color>
+    <color name="cyan_surface_variant">#DBE4E6</color>
+    <color name="cyan_tertiary">#545D7D</color>
+    <color name="cyan_tertiary_container">#DAE1FF</color>
+    <color name="deep_blue_error">#BA1B1B</color>
+    <color name="deep_blue_error_container">#FFDAD4</color>
+    <color name="deep_blue_on_error">#FFFFFF</color>
+    <color name="deep_blue_on_error_container">#410001</color>
+    <color name="deep_blue_on_primary">#FFFFFF</color>
+    <color name="deep_blue_on_primary_container">#001F2A</color>
+    <color name="deep_blue_on_secondary">#FFFFFF</color>
+    <color name="deep_blue_on_secondary_container">#081E27</color>
+    <color name="deep_blue_on_surface">#191C1E</color>
+    <color name="deep_blue_on_surface_inverse">#F0F1F3</color>
+    <color name="deep_blue_on_surface_variant">#40484C</color>
+    <color name="deep_blue_on_tertiary">#FFFFFF</color>
+    <color name="deep_blue_on_tertiary_container">#191836</color>
+    <color name="deep_blue_primary">#006684</color>
+    <color name="deep_blue_primary_container">#BAE9FF</color>
+    <color name="deep_blue_primary_inverse">#62D3FF</color>
+    <color name="deep_blue_secondary">#4D616B</color>
+    <color name="deep_blue_secondary_container">#D0E6F2</color>
+    <color name="deep_blue_surface">#FBFCFE</color>
+    <color name="deep_blue_surface_inverse">#2E3133</color>
+    <color name="deep_blue_surface_variant">#DCE4E9</color>
+    <color name="deep_blue_tertiary">#5D5B7E</color>
+    <color name="deep_blue_tertiary_container">#E3DFFF</color>
+    <color name="deep_green_error">#BA1B1B</color>
+    <color name="deep_green_error_container">#FFDAD4</color>
+    <color name="deep_green_on_error">#FFFFFF</color>
+    <color name="deep_green_on_error_container">#410001</color>
+    <color name="deep_green_on_primary">#FFFFFF</color>
+    <color name="deep_green_on_primary_container">#0E2000</color>
+    <color name="deep_green_on_secondary">#FFFFFF</color>
+    <color name="deep_green_on_secondary_container">#151E0B</color>
+    <color name="deep_green_on_surface">#1A1C17</color>
+    <color name="deep_green_on_surface_inverse">#F2F1EA</color>
+    <color name="deep_green_on_surface_variant">#44483D</color>
+    <color name="deep_green_on_tertiary">#FFFFFF</color>
+    <color name="deep_green_on_tertiary_container">#00201E</color>
+    <color name="deep_green_primary">#3C6A00</color>
+    <color name="deep_green_primary_container">#B9F475</color>
+    <color name="deep_green_primary_inverse">#9ED75C</color>
+    <color name="deep_green_secondary">#58624A</color>
+    <color name="deep_green_secondary_container">#DBE7C7</color>
+    <color name="deep_green_surface">#FDFCF5</color>
+    <color name="deep_green_surface_inverse">#30312D</color>
+    <color name="deep_green_surface_variant">#E1E4D6</color>
+    <color name="deep_green_tertiary">#386663</color>
+    <color name="deep_green_tertiary_container">#BCECE8</color>
+    <color name="deep_purple_error">#BA1B1B</color>
+    <color name="deep_purple_error_container">#FFDAD4</color>
+    <color name="deep_purple_on_error">#FFFFFF</color>
+    <color name="deep_purple_on_error_container">#410001</color>
+    <color name="deep_purple_on_primary">#FFFFFF</color>
+    <color name="deep_purple_on_primary_container">#25005A</color>
+    <color name="deep_purple_on_secondary">#FFFFFF</color>
+    <color name="deep_purple_on_secondary_container">#1F182B</color>
+    <color name="deep_purple_on_surface">#1D1B1F</color>
+    <color name="deep_purple_on_surface_inverse">#F5EFF4</color>
+    <color name="deep_purple_on_surface_variant">#49454E</color>
+    <color name="deep_purple_on_tertiary">#FFFFFF</color>
+    <color name="deep_purple_on_tertiary_container">#32101B</color>
+    <color name="deep_purple_primary">#6F43BF</color>
+    <color name="deep_purple_primary_container">#ECDCFF</color>
+    <color name="deep_purple_primary_inverse">#D4BAFF</color>
+    <color name="deep_purple_secondary">#635B70</color>
+    <color name="deep_purple_secondary_container">#E9DEF7</color>
+    <color name="deep_purple_surface">#FFFBFD</color>
+    <color name="deep_purple_surface_inverse">#323033</color>
+    <color name="deep_purple_surface_variant">#E7E0EB</color>
+    <color name="deep_purple_tertiary">#7F525E</color>
+    <color name="deep_purple_tertiary_container">#FFD9E2</color>
+    <color name="dynamic_primary">@color/m3_ref_palette_dynamic_primary40</color>
+    <color name="green_error">#BA1B1B</color>
+    <color name="green_error_container">#FFDAD4</color>
+    <color name="green_on_error">#FFFFFF</color>
+    <color name="green_on_error_container">#410001</color>
+    <color name="green_on_primary">#FFFFFF</color>
+    <color name="green_on_primary_container">#002203</color>
+    <color name="green_on_secondary">#FFFFFF</color>
+    <color name="green_on_secondary_container">#101F0F</color>
+    <color name="green_on_surface">#1A1C19</color>
+    <color name="green_on_surface_inverse">#F0F1EB</color>
+    <color name="green_on_surface_variant">#424840</color>
+    <color name="green_on_tertiary">#FFFFFF</color>
+    <color name="green_on_tertiary_container">#001F23</color>
+    <color name="green_primary">#006E17</color>
+    <color name="green_primary_container">#93F990</color>
+    <color name="green_primary_inverse">#78DC77</color>
+    <color name="green_secondary">#52634F</color>
+    <color name="green_secondary_container">#D5E8CE</color>
+    <color name="green_surface">#FCFDF6</color>
+    <color name="green_surface_inverse">#2F312D</color>
+    <color name="green_surface_variant">#DEE5D8</color>
+    <color name="green_tertiary">#38656A</color>
+    <color name="green_tertiary_container">#BCEBF0</color>
+    <color name="grey_error">#BA1B1B</color>
+    <color name="grey_error_container">#FFDADA</color>
+    <color name="grey_on_error">#FFFFFF</color>
+    <color name="grey_on_error_container">#410000</color>
+    <color name="grey_on_primary">#FFFFFF</color>
+    <color name="grey_on_primary_container">#212121</color>
+    <color name="grey_on_secondary">#FFFFFF</color>
+    <color name="grey_on_secondary_container">#080808</color>
+    <color name="grey_on_surface">#191919</color>
+    <color name="grey_on_surface_inverse">#F0F0F0</color>
+    <color name="grey_on_surface_variant">#484848</color>
+    <color name="grey_on_tertiary">#FFFFFF</color>
+    <color name="grey_on_tertiary_container">#191919</color>
+    <color name="grey_primary">#757575</color>
+    <color name="grey_primary_container">#E0E0E0</color>
+    <color name="grey_primary_inverse">#EEEEEE</color>
+    <color name="grey_secondary">#4D4D4D</color>
+    <color name="grey_secondary_container">#D0D0D0</color>
+    <color name="grey_surface">#fafafa</color>
+    <color name="grey_surface_inverse">#1f1f1f</color>
+    <color name="grey_surface_variant">#DCDCDC</color>
+    <color name="grey_tertiary">#5D5D5D</color>
+    <color name="grey_tertiary_container">#E3E3E3</color>
+    <color name="indigo_error">#BA1B1B</color>
+    <color name="indigo_error_container">#FFDAD4</color>
+    <color name="indigo_on_error">#FFFFFF</color>
+    <color name="indigo_on_error_container">#410001</color>
+    <color name="indigo_on_primary">#FFFFFF</color>
+    <color name="indigo_on_primary_container">#000D61</color>
+    <color name="indigo_on_secondary">#FFFFFF</color>
+    <color name="indigo_on_secondary_container">#171A2C</color>
+    <color name="indigo_on_surface">#1B1B1F</color>
+    <color name="indigo_on_surface_inverse">#F3F0F5</color>
+    <color name="indigo_on_surface_variant">#46464F</color>
+    <color name="indigo_on_tertiary">#FFFFFF</color>
+    <color name="indigo_on_tertiary_container">#2D1228</color>
+    <color name="indigo_primary">#4355B9</color>
+    <color name="indigo_primary_container">#DDE0FF</color>
+    <color name="indigo_primary_inverse">#B9C3FF</color>
+    <color name="indigo_secondary">#5B5D71</color>
+    <color name="indigo_secondary_container">#E0E1FA</color>
+    <color name="indigo_surface">#FEFBFF</color>
+    <color name="indigo_surface_inverse">#303034</color>
+    <color name="indigo_surface_variant">#E3E1EC</color>
+    <color name="indigo_tertiary">#77536D</color>
+    <color name="indigo_tertiary_container">#FFD7F3</color>
+    <color name="lime_error">#BA1B1B</color>
+    <color name="lime_error_container">#FFDAD4</color>
+    <color name="lime_on_error">#FFFFFF</color>
+    <color name="lime_on_error_container">#410001</color>
+    <color name="lime_on_primary">#FFFFFF</color>
+    <color name="lime_on_primary_container">#1A1E00</color>
+    <color name="lime_on_secondary">#FFFFFF</color>
+    <color name="lime_on_secondary_container">#1B1D07</color>
+    <color name="lime_on_surface">#1C1C17</color>
+    <color name="lime_on_surface_inverse">#F3F0E8</color>
+    <color name="lime_on_surface_variant">#47473B</color>
+    <color name="lime_on_tertiary">#FFFFFF</color>
+    <color name="lime_on_tertiary_container">#002019</color>
+    <color name="lime_primary">#5A6400</color>
+    <color name="lime_primary_container">#DEED49</color>
+    <color name="lime_primary_inverse">#C1D02C</color>
+    <color name="lime_secondary">#5E6044</color>
+    <color name="lime_secondary_container">#E4E5C1</color>
+    <color name="lime_surface">#FFFCF3</color>
+    <color name="lime_surface_inverse">#31312B</color>
+    <color name="lime_surface_variant">#E5E3D2</color>
+    <color name="lime_tertiary">#3C665A</color>
+    <color name="lime_tertiary_container">#BEECDC</color>
+    <color name="orange_error">#BA1B1B</color>
+    <color name="orange_error_container">#FFDAD4</color>
+    <color name="orange_on_error">#FFFFFF</color>
+    <color name="orange_on_error_container">#410001</color>
+    <color name="orange_on_primary">#FFFFFF</color>
+    <color name="orange_on_primary_container">#2D1600</color>
+    <color name="orange_on_secondary">#FFFFFF</color>
+    <color name="orange_on_secondary_container">#291806</color>
+    <color name="orange_on_surface">#1F1B17</color>
+    <color name="orange_on_surface_inverse">#FAEFE7</color>
+    <color name="orange_on_surface_variant">#51453A</color>
+    <color name="orange_on_tertiary">#FFFFFF</color>
+    <color name="orange_on_tertiary_container">#161E01</color>
+    <color name="orange_primary">#FB8C00</color>
+    <color name="orange_primary_container">#FFDCBB</color>
+    <color name="orange_primary_inverse">#FFB86D</color>
+    <color name="orange_secondary">#735A42</color>
+    <color name="orange_secondary_container">#FEDCBE</color>
+    <color name="orange_surface">#FCFCFC</color>
+    <color name="orange_surface_inverse">#352F2A</color>
+    <color name="orange_surface_variant">#F2DFD1</color>
+    <color name="orange_tertiary">#586339</color>
+    <color name="orange_tertiary_container">#DCE8B4</color>
+    <color name="pink_error">#BA1B1B</color>
+    <color name="pink_error_container">#FFDAD4</color>
+    <color name="pink_on_error">#FFFFFF</color>
+    <color name="pink_on_error_container">#410001</color>
+    <color name="pink_on_primary">#FFFFFF</color>
+    <color name="pink_on_primary_container">#400013</color>
+    <color name="pink_on_secondary">#FFFFFF</color>
+    <color name="pink_on_secondary_container">#2B1519</color>
+    <color name="pink_on_surface">#201A1B</color>
+    <color name="pink_on_surface_inverse">#FAEEEE</color>
+    <color name="pink_on_surface_variant">#524345</color>
+    <color name="pink_on_tertiary">#FFFFFF</color>
+    <color name="pink_on_tertiary_container">#2C1700</color>
+    <color name="pink_primary">#BC0049</color>
+    <color name="pink_primary_container">#FFD9DF</color>
+    <color name="pink_primary_inverse">#FFB2C0</color>
+    <color name="pink_secondary">#76565B</color>
+    <color name="pink_secondary_container">#FFD9DE</color>
+    <color name="pink_surface">#FCFCFC</color>
+    <color name="pink_surface_inverse">#362F30</color>
+    <color name="pink_surface_variant">#F4DDDF</color>
+    <color name="pink_tertiary">#795831</color>
+    <color name="pink_tertiary_container">#FFDDB8</color>
+    <color name="purple_error">#BA1B1B</color>
+    <color name="purple_error_container">#FFDAD4</color>
+    <color name="purple_on_error">#FFFFFF</color>
+    <color name="purple_on_error_container">#410001</color>
+    <color name="purple_on_primary">#FFFFFF</color>
+    <color name="purple_on_primary_container">#350040</color>
+    <color name="purple_on_secondary">#FFFFFF</color>
+    <color name="purple_on_secondary_container">#251626</color>
+    <color name="purple_on_surface">#1E1A1D</color>
+    <color name="purple_on_surface_inverse">#F7EEF3</color>
+    <color name="purple_on_surface_variant">#4D444C</color>
+    <color name="purple_on_tertiary">#FFFFFF</color>
+    <color name="purple_on_tertiary_container">#32110C</color>
+    <color name="purple_primary">#9A25AE</color>
+    <color name="purple_primary_container">#FFD5FF</color>
+    <color name="purple_primary_inverse">#FBAAFF</color>
+    <color name="purple_secondary">#6B586B</color>
+    <color name="purple_secondary_container">#F5DBF2</color>
+    <color name="purple_surface">#FCFCFC</color>
+    <color name="purple_surface_inverse">#332F32</color>
+    <color name="purple_surface_variant">#ECDEE8</color>
+    <color name="purple_tertiary">#82524A</color>
+    <color name="purple_tertiary_container">#FFDAD2</color>
+    <color name="red_error">#BA1B1B</color>
+    <color name="red_error_container">#FFDAD4</color>
+    <color name="red_on_error">#FFFFFF</color>
+    <color name="red_on_error_container">#410001</color>
+    <color name="red_on_primary">#FFFFFF</color>
+    <color name="red_on_primary_container">#410001</color>
+    <color name="red_on_secondary">#FFFFFF</color>
+    <color name="red_on_secondary_container">#2C1512</color>
+    <color name="red_on_surface">#211A19</color>
+    <color name="red_on_surface_inverse">#FBEEEC</color>
+    <color name="red_on_surface_variant">#534341</color>
+    <color name="red_on_tertiary">#FFFFFF</color>
+    <color name="red_on_tertiary_container">#261A00</color>
+    <color name="red_primary">#BC1714</color>
+    <color name="red_primary_container">#FFDAD3</color>
+    <color name="red_primary_inverse">#FFB4A8</color>
+    <color name="red_secondary">#775652</color>
+    <color name="red_secondary_container">#FFDAD4</color>
+    <color name="red_surface">#FCFCFC</color>
+    <color name="red_surface_inverse">#362F2E</color>
+    <color name="red_surface_variant">#F4DDDA</color>
+    <color name="red_tertiary">#715C2E</color>
+    <color name="red_tertiary_container">#FCDFA6</color>
+    <color name="teal_error">#BA1B1B</color>
+    <color name="teal_error_container">#FFDAD4</color>
+    <color name="teal_on_error">#FFFFFF</color>
+    <color name="teal_on_error_container">#410001</color>
+    <color name="teal_on_primary">#FFFFFF</color>
+    <color name="teal_on_primary_container">#00201C</color>
+    <color name="teal_on_secondary">#FFFFFF</color>
+    <color name="teal_on_secondary_container">#05201C</color>
+    <color name="teal_on_surface">#191C1B</color>
+    <color name="teal_on_surface_inverse">#EFF1EF</color>
+    <color name="teal_on_surface_variant">#3F4947</color>
+    <color name="teal_on_tertiary">#FFFFFF</color>
+    <color name="teal_on_tertiary_container">#001D31</color>
+    <color name="teal_primary">#006A5F</color>
+    <color name="teal_primary_container">#74F7E5</color>
+    <color name="teal_primary_inverse">#53DBC9</color>
+    <color name="teal_secondary">#4A635F</color>
+    <color name="teal_secondary_container">#CDE8E2</color>
+    <color name="teal_surface">#FAFDFA</color>
+    <color name="teal_surface_inverse">#2D3130</color>
+    <color name="teal_surface_variant">#DBE5E2</color>
+    <color name="teal_tertiary">#466179</color>
+    <color name="teal_tertiary_container">#CBE5FF</color>
+    <color name="widget_on_surface_inverse">@color/material_dynamic_neutral95</color>
+    <color name="widget_surface">@color/material_dynamic_primary95</color>
+    <color name="widget_surface_inverse">@color/material_dynamic_neutral20</color>
+    <color name="yellow_error">#BA1B1B</color>
+    <color name="yellow_error_container">#FFDAD4</color>
+    <color name="yellow_on_error">#FFFFFF</color>
+    <color name="yellow_on_error_container">#410001</color>
+    <color name="yellow_on_primary">#FFFFFF</color>
+    <color name="yellow_on_primary_container">#261A00</color>
+    <color name="yellow_on_secondary">#FFFFFF</color>
+    <color name="yellow_on_secondary_container">#241A04</color>
+    <color name="yellow_on_surface">#1E1B16</color>
+    <color name="yellow_on_surface_inverse">#F8F0E7</color>
+    <color name="yellow_on_surface_variant">#4D4639</color>
+    <color name="yellow_on_tertiary">#FFFFFF</color>
+    <color name="yellow_on_tertiary_container">#082009</color>
+    <color name="yellow_primary">#FFB300</color>
+    <color name="yellow_primary_container">#FFDF99</color>
+    <color name="yellow_primary_inverse">#FABD00</color>
+    <color name="yellow_secondary">#6B5C3F</color>
+    <color name="yellow_secondary_container">#F4E0BB</color>
+    <color name="yellow_surface">#FFFBF8</color>
+    <color name="yellow_surface_inverse">#34302A</color>
+    <color name="yellow_surface_variant">#EDE1CF</color>
+    <color name="yellow_tertiary">#496546</color>
+    <color name="yellow_tertiary_container">#CCEBC5</color>
+    <dimen name="elevation_normal">3dp</dimen>
+    <dimen name="fast_scroll_popup_min_height">64dp</dimen>
+    <dimen name="fast_scroll_popup_min_width">78dp</dimen>
+    <dimen name="fast_scroll_popup_padding_end">28dp</dimen>
+    <dimen name="fast_scroll_popup_padding_start">@dimen/spacing_medium</dimen>
+    <dimen name="fast_scroll_thumb_touch_target_size">48dp</dimen>
+    <dimen name="recycler_fab_space_large">128dp</dimen>
+    <dimen name="recycler_fab_space_normal">88dp</dimen>
+    <dimen name="size_accent_item">56dp</dimen>
+    <dimen name="size_bottom_sheet_bar">64dp</dimen>
+    <dimen name="size_btn">48dp</dimen>
+    <dimen name="size_copy_button">64dp</dimen>
+    <dimen name="size_corners_medium">16dp</dimen>
+    <dimen name="size_corners_mid_large">24dp</dimen>
+    <dimen name="size_corners_small">8dp</dimen>
+    <dimen name="size_cover_compact">48dp</dimen>
+    <dimen name="size_cover_huge">256dp</dimen>
+    <dimen name="size_cover_large">128dp</dimen>
+    <dimen name="size_cover_medium">56dp</dimen>
+    <dimen name="size_cover_mid_huge">192dp</dimen>
+    <dimen name="size_icon_medium">32dp</dimen>
+    <dimen name="size_icon_small">24dp</dimen>
+    <dimen name="size_play_pause_button">72dp</dimen>
+    <dimen name="size_pre_amp_ticker">56dp</dimen>
+    <dimen name="slider_thumb_radius">6dp</dimen>
+    <dimen name="spacing_huge">32dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_mid_large">20dp</dimen>
+    <dimen name="spacing_mid_medium">12dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="text_size_track_number_max">22sp</dimen>
+    <dimen name="text_size_track_number_min">14sp</dimen>
+    <dimen name="text_size_track_number_step">2sp</dimen>
+    <dimen name="widget_def_height">100dp</dimen>
+    <dimen name="widget_def_width">180dp</dimen>
+    <item name="home_album_recycler" type="id"/>
+    <item name="home_artist_recycler" type="id"/>
+    <item name="home_genre_recycler" type="id"/>
+    <item name="home_playlist_recycler" type="id"/>
+    <item name="home_song_recycler" type="id"/>
+    <integer name="action_mode_next">0xA119</integer>
+    <integer name="action_mode_repeat">0xA11A</integer>
+    <integer name="action_mode_shuffle">0xA11B</integer>
+    <integer name="anim_fade_enter_duration">200</integer>
+    <integer name="anim_fade_exit_duration">100</integer>
+    <integer name="cover_mode_media_store">0xA11D</integer>
+    <integer name="cover_mode_off">0xA11C</integer>
+    <integer name="cover_mode_quality">0xA11E</integer>
+    <integer name="play_song_by_itself">0xA124</integer>
+    <integer name="play_song_from_album">0xA120</integer>
+    <integer name="play_song_from_all">0xA11F</integer>
+    <integer name="play_song_from_artist">0xA121</integer>
+    <integer name="play_song_from_genre">0xA122</integer>
+    <integer name="play_song_none">-2147483648</integer>
+    <integer name="replay_gain_album">0xA112</integer>
+    <integer name="replay_gain_dynamic">0xA113</integer>
+    <integer name="replay_gain_off">0xA110</integer>
+    <integer name="replay_gain_track">0xA111</integer>
+    <integer name="theme_auto">-1</integer>
+    <integer name="theme_dark">2</integer>
+    <integer name="theme_light">1</integer>
+    <plurals name="fmt_album_count">
+        <item quantity="one">%d album</item>
+        <item quantity="other">%d albums</item>
+    </plurals>
+    <plurals name="fmt_artist_count">
+        <item quantity="one">%d artist</item>
+        <item quantity="other">%d artists</item>
+    </plurals>
+    <plurals name="fmt_song_count">
+        <item quantity="one">%d song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <string name="cdc_aac">Advanced Audio Coding (AAC)</string>
+    <string name="cdc_flac">Free Lossless Audio Codec (FLAC)</string>
+    <string name="cdc_mka">Matroska audio</string>
+    <string name="cdc_mp3">MPEG-1 audio</string>
+    <string name="cdc_mp4">MPEG-4 audio</string>
+    <string name="cdc_ogg">Ogg audio</string>
+    <string name="cdc_opus">Opus</string>
+    <string name="cdc_vorbis">Vorbis</string>
+    <string name="cdc_wav">Microsoft WAVE</string>
+    <string name="clr_blue">Blue</string>
+    <string name="clr_brown">Brown</string>
+    <string name="clr_cyan">Cyan</string>
+    <string name="clr_deep_blue">Deep blue</string>
+    <string name="clr_deep_green">Deep green</string>
+    <string name="clr_deep_purple">Deep purple</string>
+    <string name="clr_dynamic">Dynamic</string>
+    <string name="clr_green">Green</string>
+    <string name="clr_grey">Grey</string>
+    <string name="clr_indigo">Indigo</string>
+    <string name="clr_lime">Lime</string>
+    <string name="clr_orange">Orange</string>
+    <string name="clr_pink">Pink</string>
+    <string name="clr_purple">Purple</string>
+    <string name="clr_red">Red</string>
+    <string name="clr_teal">Teal</string>
+    <string name="clr_yellow">Yellow</string>
+    <string name="def_album_count">No albums</string>
+    <string name="def_artist">Unknown artist</string>
+    <string name="def_date">No date</string>
+    <string name="def_disc">No disc</string>
+    <string name="def_genre">Unknown genre</string>
+    <string name="def_playback">No music playing</string>
+    <string name="def_song_count">No songs</string>
+    <string name="def_track">No track</string>
+    <string name="desc_album_cover">Album cover for %s</string>
+    <string name="desc_artist_image">Artist image for %s</string>
+    <string name="desc_auxio_icon">Auxio icon</string>
+    <string name="desc_change_repeat">Change repeat mode</string>
+    <string name="desc_clear_search">Clear search query</string>
+    <string name="desc_exit">Stop playback</string>
+    <string name="desc_genre_image">Genre image for %s</string>
+    <string name="desc_music_dir_delete">Remove folder</string>
+    <string name="desc_new_playlist">Create a new playlist</string>
+    <string name="desc_no_cover">Album cover</string>
+    <string name="desc_play_pause">Play or pause</string>
+    <string name="desc_playlist_image">Playlist image for %s</string>
+    <string name="desc_queue_bar">Open the queue</string>
+    <string name="desc_remove_song">Remove this song</string>
+    <string name="desc_selection_image">Selection image</string>
+    <string name="desc_shuffle">Turn shuffle on or off</string>
+    <string name="desc_shuffle_all">Shuffle all songs</string>
+    <string name="desc_skip_next">Skip to next song</string>
+    <string name="desc_skip_prev">Skip to last song</string>
+    <string name="desc_song_handle">Move this song</string>
+    <string name="desc_tab_handle">Move this tab</string>
+    <string name="desc_track_number">Track %d</string>
+    <string name="err_bad_dir">This folder is not supported</string>
+    <string name="err_did_not_restore">Unable to restore state</string>
+    <string name="err_did_not_save">Unable to save state</string>
+    <string name="err_did_not_wipe">Unable to clear state</string>
+    <string name="err_export_failed">Unable to export the playlist to this file</string>
+    <string name="err_import_failed">Unable to import a playlist from this file</string>
+    <string name="err_index_failed">Music loading failed</string>
+    <string name="err_no_app">No app found that can handle this task</string>
+    <string name="err_no_dirs">No folders</string>
+    <string name="err_no_music">No music found</string>
+    <string name="err_no_perms">Auxio needs permission to read your music library</string>
+    <string name="fmt_bitrate">%d kbps</string>
+    <string name="fmt_date_range" translatable="false">%s - %s</string>
+    <string name="fmt_db_neg">-%.1f dB</string>
+    <string name="fmt_db_pos">+%.1f dB</string>
+    <string name="fmt_def_playlist">Playlist %d</string>
+    <string name="fmt_deletion_info">Delete %s? This cannot be undone.</string>
+    <string name="fmt_disc_no">Disc %d</string>
+    <string name="fmt_editing">Editing %s</string>
+    <string name="fmt_indexing">Loading your music library… (%1$d/%2$d)</string>
+    <string name="fmt_lib_album_count">Albums loaded: %d</string>
+    <string name="fmt_lib_artist_count">Artists loaded: %d</string>
+    <string name="fmt_lib_genre_count">Genres loaded: %d</string>
+    <string name="fmt_lib_song_count">Songs loaded: %d</string>
+    <string name="fmt_lib_total_duration">Total duration: %s</string>
+    <string name="fmt_list">%1$s, %2$s</string>
+    <string name="fmt_number" translatable="false">%d</string>
+    <string name="fmt_path" translatable="false">%1$s/%2$s</string>
+    <string name="fmt_sample_rate">%d Hz</string>
+    <string name="fmt_selected">%d Selected</string>
+    <string name="fmt_three" translatable="false">%1$s • %2$s • %3$s</string>
+    <string name="fmt_two" translatable="false">%1$s • %2$s</string>
+    <string name="fmt_zipped_names" translatable="false">%1$s (%2$s)</string>
+    <string name="info_app_desc">A simple, rational music player for android.</string>
+    <string name="info_app_name" translatable="false">Auxio Debug</string>
+    <string name="lbl_about">About</string>
+    <string name="lbl_add">Add</string>
+    <string name="lbl_album">Album</string>
+    <string name="lbl_album_details">Go to album</string>
+    <string name="lbl_album_live">Live album</string>
+    <string name="lbl_album_remix">Remix album</string>
+    <string name="lbl_albums">Albums</string>
+    <string name="lbl_all_songs">All songs</string>
+    <string name="lbl_appears_on">Appears on</string>
+    <string name="lbl_artist">Artist</string>
+    <string name="lbl_artist_details">Go to artist</string>
+    <string name="lbl_artists">Artists</string>
+    <string name="lbl_author">Author</string>
+    <string name="lbl_author_name">Alexander Capehart</string>
+    <string name="lbl_bitrate">Bit rate</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_code">Source code</string>
+    <string name="lbl_compilation">Compilation</string>
+    <string name="lbl_compilation_live">Live compilation</string>
+    <string name="lbl_compilation_remix">Remix compilation</string>
+    <string name="lbl_compilations">Compilations</string>
+    <string name="lbl_confirm_delete_playlist">Delete playlist?</string>
+    <string name="lbl_copied">Copied</string>
+    <string name="lbl_date">Date</string>
+    <string name="lbl_date_added">Date added</string>
+    <string name="lbl_delete">Delete</string>
+    <string name="lbl_demo">Demo</string>
+    <string name="lbl_demos">Demos</string>
+    <string name="lbl_disc">Disc</string>
+    <string name="lbl_donate">Donate</string>
+    <string name="lbl_duration">Duration</string>
+    <string name="lbl_edit">Edit</string>
+    <string name="lbl_empty_playlist">Empty playlist</string>
+    <string name="lbl_ep">EP</string>
+    <string name="lbl_ep_live">Live EP</string>
+    <string name="lbl_ep_remix">Remix EP</string>
+    <string name="lbl_eps">EPs</string>
+    <string name="lbl_equalizer">Equalizer</string>
+    <string name="lbl_error_info">Error information</string>
+    <string name="lbl_export">Export</string>
+    <string name="lbl_export_playlist">Export playlist</string>
+    <string name="lbl_filter">Filter</string>
+    <string name="lbl_filter_all">All</string>
+    <string name="lbl_format">Format</string>
+    <string name="lbl_genre">Genre</string>
+    <string name="lbl_genres">Genres</string>
+    <string name="lbl_grant">Grant</string>
+    <string name="lbl_import">Import</string>
+    <string name="lbl_import_playlist">Import playlist</string>
+    <string name="lbl_imported_playlist">Imported playlist</string>
+    <string name="lbl_indexer">Music loading</string>
+    <string name="lbl_indexing">Loading music</string>
+    <string name="lbl_library_counts">Library statistics</string>
+    <string name="lbl_licenses">Licenses</string>
+    <string name="lbl_live_group">Live</string>
+    <string name="lbl_mix">DJ Mix</string>
+    <string name="lbl_mixes">DJ Mixes</string>
+    <string name="lbl_mixtape">Mixtape</string>
+    <string name="lbl_mixtapes">Mixtapes</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_new_playlist">New playlist</string>
+    <string name="lbl_observing">Monitoring music library</string>
+    <string name="lbl_ok">OK</string>
+    <string name="lbl_parent_detail">View</string>
+    <string name="lbl_path">Path</string>
+    <string name="lbl_path_style">Path style</string>
+    <string name="lbl_path_style_absolute">Absolute</string>
+    <string name="lbl_path_style_relative">Relative</string>
+    <string name="lbl_play">Play</string>
+    <string name="lbl_play_next">Play next</string>
+    <string name="lbl_playback">Now playing</string>
+    <string name="lbl_playlist">Playlist</string>
+    <string name="lbl_playlist_add">Add to playlist</string>
+    <string name="lbl_playlists">Playlists</string>
+    <string name="lbl_props">Song properties</string>
+    <string name="lbl_queue">Queue</string>
+    <string name="lbl_queue_add">Add to queue</string>
+    <string name="lbl_remix_group">Remixes</string>
+    <string name="lbl_rename">Rename</string>
+    <string name="lbl_rename_playlist">Rename playlist</string>
+    <string name="lbl_replaygain_album">ReplayGain Album Adjustment</string>
+    <string name="lbl_replaygain_track">ReplayGain Track Adjustment</string>
+    <string name="lbl_report">Report</string>
+    <string name="lbl_reset">Reset</string>
+    <string name="lbl_retry">Retry</string>
+    <string name="lbl_sample_rate">Sample rate</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_search">Search</string>
+    <string name="lbl_selection">Selection</string>
+    <string name="lbl_share">Share</string>
+    <string name="lbl_show_error_info">More</string>
+    <string name="lbl_shuffle">Shuffle</string>
+    <string name="lbl_shuffle_shortcut_long">Shuffle all</string>
+    <string name="lbl_shuffle_shortcut_short">Shuffle</string>
+    <string name="lbl_single">Single</string>
+    <string name="lbl_single_live">Live single</string>
+    <string name="lbl_single_remix">Remix single</string>
+    <string name="lbl_singles">Singles</string>
+    <string name="lbl_size">Size</string>
+    <string name="lbl_song">Song</string>
+    <string name="lbl_song_count">Song count</string>
+    <string name="lbl_song_detail">View properties</string>
+    <string name="lbl_songs">Songs</string>
+    <string name="lbl_sort">Sort</string>
+    <string name="lbl_sort_asc">Ascending</string>
+    <string name="lbl_sort_direction">Direction</string>
+    <string name="lbl_sort_dsc">Descending</string>
+    <string name="lbl_sort_mode">Sort by</string>
+    <string name="lbl_soundtrack">Soundtrack</string>
+    <string name="lbl_soundtracks">Soundtracks</string>
+    <string name="lbl_state_restored">State restored</string>
+    <string name="lbl_state_saved">State saved</string>
+    <string name="lbl_state_wiped">State cleared</string>
+    <string name="lbl_supporters">Supporters</string>
+    <string name="lbl_track">Track</string>
+    <string name="lbl_version">Version</string>
+    <string name="lbl_wiki">Wiki</string>
+    <string name="lbl_windows_paths">Use Windows-compatible paths</string>
+    <string name="lng_indexing">Loading your music library…</string>
+    <string name="lng_observing">Monitoring your music library for changes…</string>
+    <string name="lng_playlist_added">Added to playlist</string>
+    <string name="lng_playlist_created">Playlist created</string>
+    <string name="lng_playlist_deleted">Playlist deleted</string>
+    <string name="lng_playlist_exported">Playlist exported</string>
+    <string name="lng_playlist_imported">Playlist imported</string>
+    <string name="lng_playlist_renamed">Playlist renamed</string>
+    <string name="lng_queue_added">Added to queue</string>
+    <string name="lng_search_library">Search your library…</string>
+    <string name="lng_supporters_promo">Donate to the project to get your name added here!</string>
+    <string name="lng_widget">View and control music playback</string>
+    <string name="set_accent">Color scheme</string>
+    <string name="set_action_mode_next">Skip to next</string>
+    <string name="set_action_mode_repeat">Repeat mode</string>
+    <string name="set_audio">Audio</string>
+    <string name="set_audio_desc">Configure sound and playback behavior</string>
+    <string name="set_bar_action">Custom playback bar action</string>
+    <string name="set_behavior">Behavior</string>
+    <string name="set_black_mode">Black theme</string>
+    <string name="set_black_mode_desc">Use a pure-black dark theme</string>
+    <string name="set_content">Content</string>
+    <string name="set_content_desc">Control how music and images are loaded</string>
+    <string name="set_cover_mode">Album covers</string>
+    <string name="set_cover_mode_media_store">Fast</string>
+    <string name="set_cover_mode_off">Off</string>
+    <string name="set_cover_mode_quality">High quality</string>
+    <string name="set_dirs">Music folders</string>
+    <string name="set_dirs_desc">Manage where music should be loaded from</string>
+    <string name="set_dirs_list">Folders</string>
+    <string name="set_dirs_mode">Mode</string>
+    <string name="set_dirs_mode_exclude">Exclude</string>
+    <string name="set_dirs_mode_exclude_desc">Music will <b>not</b> be loaded from the folders you add.</string>
+    <string name="set_dirs_mode_include">Include</string>
+    <string name="set_dirs_mode_include_desc">Music will <b>only</b> be loaded from the folders you add.</string>
+    <string name="set_display">Display</string>
+    <string name="set_exclude_non_music">Exclude non-music</string>
+    <string name="set_exclude_non_music_desc">Ignore audio files that are not music, such as podcasts</string>
+    <string name="set_headset_autoplay">Headset autoplay</string>
+    <string name="set_headset_autoplay_desc">Always start playing when a headset is connected (may not work on all devices)</string>
+    <string name="set_hide_collaborators">Hide collaborators</string>
+    <string name="set_hide_collaborators_desc">Only show artists that are directly credited on an album (works best on well-tagged libraries)</string>
+    <string name="set_images">Images</string>
+    <string name="set_intelligent_sorting">Intelligent sorting</string>
+    <string name="set_intelligent_sorting_desc">Correctly sort names that begin with numbers or words like \"the\" (works best with english-language music)</string>
+    <string name="set_keep_shuffle">Remember shuffle</string>
+    <string name="set_keep_shuffle_desc">Keep shuffle on when playing a new song</string>
+    <string name="set_key_accent" translatable="false">auxio_accent2</string>
+    <string name="set_key_album_songs_sort" translatable="false">auxio_album_sort</string>
+    <string name="set_key_albums_sort" translatable="false">auxio_albums_sort</string>
+    <string name="set_key_artist_songs_sort" translatable="false">auxio_artist_sort</string>
+    <string name="set_key_artists_sort" translatable="false">auxio_artists_sort</string>
+    <string name="set_key_audio" translatable="false">auxio_audio</string>
+    <string name="set_key_auto_sort_names" translatable="false">auxio_auto_sort_names</string>
+    <string name="set_key_bar_action" translatable="false">auxio_bar_action</string>
+    <string name="set_key_black_theme" translatable="false">KEY_BLACK_THEME</string>
+    <string name="set_key_cover_mode" translatable="false">auxio_cover_mode</string>
+    <string name="set_key_exclude_non_music" translatable="false">auxio_exclude_non_music</string>
+    <string name="set_key_genre_songs_sort" translatable="false">auxio_genre_sort</string>
+    <string name="set_key_genres_sort" translatable="false">auxio_genres_sort</string>
+    <string name="set_key_headset_autoplay" translatable="false">auxio_headset_autoplay</string>
+    <string name="set_key_hide_collaborators" translatable="false">auxio_hide_collaborators</string>
+    <string name="set_key_home_tabs" translatable="false">auxio_home_tabs</string>
+    <string name="set_key_keep_shuffle" translatable="false">KEY_KEEP_SHUFFLE</string>
+    <string name="set_key_music" translatable="false">auxio_music</string>
+    <string name="set_key_music_dirs" translatable="false">auxio_music_dirs</string>
+    <string name="set_key_music_dirs_include" translatable="false">auxio_include_dirs</string>
+    <string name="set_key_notif_action" translatable="false">auxio_notif_action</string>
+    <string name="set_key_observing" translatable="false">auxio_observing</string>
+    <string name="set_key_personalize" translatable="false">auxio_personalize</string>
+    <string name="set_key_play_in_list_with" translatable="false">auxio_play_in_list_with</string>
+    <string name="set_key_play_in_parent_with" translatable="false">auxio_play_in_parent_with</string>
+    <string name="set_key_playlists_sort" translatable="false">auxio_playlists_sort</string>
+    <string name="set_key_pre_amp" translatable="false">auxio_pre_amp</string>
+    <string name="set_key_pre_amp_with" translatable="false">auxio_pre_amp_with</string>
+    <string name="set_key_pre_amp_without" translatable="false">auxio_pre_amp_without</string>
+    <string name="set_key_reindex" translatable="false">auxio_reindex</string>
+    <string name="set_key_remember_pause" translatable="false">auxio_remember_pause</string>
+    <string name="set_key_repeat_pause" translatable="false">KEY_LOOP_PAUSE</string>
+    <string name="set_key_replay_gain" translatable="false">auxio_replay_gain</string>
+    <string name="set_key_rescan" translatable="false">auxio_rescan</string>
+    <string name="set_key_rewind_prev" translatable="false">KEY_PREV_REWIND</string>
+    <string name="set_key_round_mode" translatable="false">auxio_round_covers</string>
+    <string name="set_key_search_filter_to" translatable="false">KEY_SEARCH_FILTER</string>
+    <string name="set_key_separators" translatable="false">auxio_separators</string>
+    <string name="set_key_songs_sort" translatable="false">auxio_songs_sort</string>
+    <string name="set_key_square_covers" translatable="false">auxio_square_covers</string>
+    <string name="set_key_theme" translatable="false">KEY_THEME2</string>
+    <string name="set_key_ui" translatable="false">auxio_ui</string>
+    <string name="set_lib_tabs">Library tabs</string>
+    <string name="set_lib_tabs_desc">Change visibility and order of library tabs</string>
+    <string name="set_library">Library</string>
+    <string name="set_music">Music</string>
+    <string name="set_notif_action">Custom notification action</string>
+    <string name="set_observing">Automatic reloading</string>
+    <string name="set_observing_desc">Reload the music library whenever it changes (requires persistent notification)</string>
+    <string name="set_personalize">Personalize</string>
+    <string name="set_personalize_desc">Customize UI controls and behavior</string>
+    <string name="set_play_in_list_with">When playing from the library</string>
+    <string name="set_play_in_parent_with">When playing from item details</string>
+    <string name="set_play_song_by_itself">Play song by itself</string>
+    <string name="set_play_song_from_album">Play from album</string>
+    <string name="set_play_song_from_all">Play from all songs</string>
+    <string name="set_play_song_from_artist">Play from artist</string>
+    <string name="set_play_song_from_genre">Play from genre</string>
+    <string name="set_play_song_none">Play from shown item</string>
+    <string name="set_playback">Playback</string>
+    <string name="set_pre_amp">ReplayGain pre-amp</string>
+    <string name="set_pre_amp_desc">The pre-amp is applied to the existing adjustment during playback</string>
+    <string name="set_pre_amp_warning">Warning: Changing the pre-amp to a high positive value may result in peaking on some audio tracks.</string>
+    <string name="set_pre_amp_with">Adjustment with tags</string>
+    <string name="set_pre_amp_without">Adjustment without tags</string>
+    <string name="set_reindex">Refresh music</string>
+    <string name="set_reindex_desc">Reload the music library, using cached tags when possible</string>
+    <string name="set_remember_pause">Remember pause</string>
+    <string name="set_remember_pause_desc">Remain playing/paused when skipping or editing queue</string>
+    <string name="set_repeat_pause">Pause on repeat</string>
+    <string name="set_repeat_pause_desc">Pause when a song repeats</string>
+    <string name="set_replay_gain">Volume normalization</string>
+    <string name="set_replay_gain_mode">ReplayGain strategy</string>
+    <string name="set_replay_gain_mode_album">Prefer album</string>
+    <string name="set_replay_gain_mode_dynamic">Prefer album if one is playing</string>
+    <string name="set_replay_gain_mode_off">Off</string>
+    <string name="set_replay_gain_mode_track">Prefer track</string>
+    <string name="set_rescan">Rescan music</string>
+    <string name="set_rescan_desc">Clear the tag cache and fully reload the music library (slower, but more complete)</string>
+    <string name="set_restore_desc">Restore the previously saved playback state (if any)</string>
+    <string name="set_restore_state">Restore playback state</string>
+    <string name="set_rewind_prev">Rewind before skipping back</string>
+    <string name="set_rewind_prev_desc">Rewind before skipping to the previous song</string>
+    <string name="set_root_title">Settings</string>
+    <string name="set_round_mode">Round mode</string>
+    <string name="set_round_mode_desc">Enable rounded corners on additional UI elements (requires album covers to be rounded)</string>
+    <string name="set_save_desc">Save the current playback state now</string>
+    <string name="set_save_state">Save playback state</string>
+    <string name="set_separators">Multi-value separators</string>
+    <string name="set_separators_and">Ampersand (&amp;)</string>
+    <string name="set_separators_comma">Comma (,)</string>
+    <string name="set_separators_desc">Configure characters that denote multiple tag values</string>
+    <string name="set_separators_plus">Plus (+)</string>
+    <string name="set_separators_semicolon">Semicolon (;)</string>
+    <string name="set_separators_slash">Slash (/)</string>
+    <string name="set_separators_warning">Warning: Using this setting may result in some tags being incorrectly interpreted as having multiple values. You can resolve this by prefixing unwanted separator characters with a backslash (\\).</string>
+    <string name="set_square_covers">Force square album covers</string>
+    <string name="set_square_covers_desc">Crop all album covers to a 1:1 aspect ratio</string>
+    <string name="set_state">Persistence</string>
+    <string name="set_theme">Theme</string>
+    <string name="set_theme_auto">Automatic</string>
+    <string name="set_theme_day">Light</string>
+    <string name="set_theme_night">Dark</string>
+    <string name="set_ui">Look and Feel</string>
+    <string name="set_ui_desc">Change the theme and colors of the app</string>
+    <string name="set_wipe_desc">Clear the previously saved playback state (if any)</string>
+    <string name="set_wipe_state">Clear playback state</string>
+    <style name="Animation.Auxio.BottomSheet.Dialog" parent="Animation.Material3.BottomSheetDialog">
+        <item name="android:windowEnterAnimation">@anim/bottom_sheet_slide_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_sheet_slide_out</item>
+    </style>
+    <style name="Preference.Auxio" parent="Preference.Material">
+        <item name="allowDividerBelow">false</item>
+        <item name="iconSpaceReserved">false</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+    <style name="Preference.Auxio.DialogPreference" parent="Preference.DialogPreference.Material">
+        <item name="allowDividerBelow">false</item>
+        <item name="iconSpaceReserved">false</item>
+    </style>
+    <style name="Preference.Auxio.PreferenceCategory" parent="Preference.Category.Material">
+        <item name="layout">@layout/item_header</item>
+        <item name="allowDividerBelow">false</item>
+        <item name="iconSpaceReserved">false</item>
+    </style>
+    <style name="Preference.Auxio.SwitchPreferenceCompat" parent="Preference.SwitchPreferenceCompat.Material">
+        <item name="widgetLayout">@layout/view_preference_switch</item>
+        <item name="allowDividerBelow">false</item>
+        <item name="iconSpaceReserved">false</item>
+    </style>
+    <style name="PreferenceTheme.Auxio" parent="@style/PreferenceThemeOverlay">
+        <item name="android:layout">@layout/fragment_preferences</item>
+    </style>
+    <style name="TextAppearance.Auxio.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.01125</item>
+    </style>
+    <style name="TextAppearance.Auxio.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.0064285714</item>
+    </style>
+    <style name="TextAppearance.Auxio.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.0008333333</item>
+    </style>
+    <style name="TextAppearance.Auxio.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.0192807018</item>
+    </style>
+    <style name="TextAppearance.Auxio.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.0192222222</item>
+    </style>
+    <style name="TextAppearance.Auxio.DisplaySmall" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.0189444444</item>
+    </style>
+    <style name="TextAppearance.Auxio.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.0185625</item>
+    </style>
+    <style name="TextAppearance.Auxio.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.0180714286</item>
+    </style>
+    <style name="TextAppearance.Auxio.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.0165833333</item>
+    </style>
+    <style name="TextAppearance.Auxio.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.003</item>
+    </style>
+    <style name="TextAppearance.Auxio.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.003</item>
+    </style>
+    <style name="TextAppearance.Auxio.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">0.0075454545</item>
+    </style>
+    <style name="TextAppearance.Auxio.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.01518181818</item>
+    </style>
+    <style name="TextAppearance.Auxio.TitleLargeLowEmphasis" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.01818181818</item>
+    </style>
+    <style name="TextAppearance.Auxio.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/inter_regular</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:letterSpacing">-0.01125</item>
+    </style>
+    <style name="TextAppearance.Auxio.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/inter_semibold</item>
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.003</item>
+    </style>
+    <style name="Theme.Auxio" parent="Theme.Material3.DynamicColors.DayNight"/>
+    <style name="Theme.Auxio.App" parent="@style/Theme.Auxio.Blue"/>
+    <style name="Theme.Auxio.Base" parent="Theme.Auxio.V31">
+
+        
+        <item name="colorOutline">@color/overlay_stroke</item>
+        <item name="toolbarStyle">@style/Widget.Auxio.Toolbar</item>
+        <item name="materialAlertDialogTheme">@style/Theme.Auxio.Dialog</item>
+        <item name="sliderStyle">@style/Widget.Auxio.Slider</item>
+        <item name="linearProgressIndicatorStyle">@style/Widget.Auxio.LinearProgressIndicator</item>
+        <item name="bottomSheetStyle">@style/Widget.Auxio.BottomSheet</item>
+        <item name="bottomSheetDialogTheme">@style/Widget.Auxio.BottomSheet.Dialog</item>
+        <item name="bottomSheetDragHandleStyle">@style/Widget.Auxio.BottomSheet.Handle</item>
+
+        <item name="textAppearanceDisplayLarge">@style/TextAppearance.Auxio.DisplayLarge</item>
+        <item name="textAppearanceDisplayMedium">@style/TextAppearance.Auxio.DisplayMedium</item>
+        <item name="textAppearanceDisplaySmall">@style/TextAppearance.Auxio.DisplaySmall</item>
+
+        <item name="textAppearanceHeadlineLarge">@style/TextAppearance.Auxio.HeadlineLarge</item>
+        <item name="textAppearanceHeadlineMedium">@style/TextAppearance.Auxio.HeadlineMedium</item>
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.Auxio.HeadlineSmall</item>
+
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.Auxio.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.Auxio.TitleMedium
+        </item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.Auxio.TitleSmall</item>
+
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Auxio.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.Auxio.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.Auxio.LabelSmall</item>
+
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Auxio.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Auxio.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.Auxio.BodySmall</item>
+
+        
+        <item name="android:scrollbars">none</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlHighlight">@color/sel_compat_ripple</item>
+        <item name="colorControlNormal">?attr/colorOnSurfaceVariant</item>
+        <item name="colorControlActivated">?attr/colorPrimary</item>
+
+        
+        <item name="android:textColorHighlight">@color/overlay_text_highlight</item>
+        <item name="android:textColorHighlightInverse">@color/overlay_text_highlight_inverse</item>
+
+        <item name="preferenceTheme">@style/PreferenceTheme.Auxio</item>
+        <item name="preferenceStyle">@style/Preference.Auxio</item>
+        <item name="preferenceCategoryStyle">@style/Preference.Auxio.PreferenceCategory</item>
+        <item name="dialogPreferenceStyle">@style/Preference.Auxio.DialogPreference</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.Auxio.SwitchPreferenceCompat
+        </item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.Auxio.Toolbar.Navigation</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Auxio.Button.Overflow</item>
+    </style>
+    <style name="Theme.Auxio.Black" parent="Theme.Auxio.Base">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Blue" parent="Theme.Auxio.Blue">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Brown" parent="Theme.Auxio.Brown">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Cyan" parent="Theme.Auxio.Cyan">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.DeepBlue" parent="Theme.Auxio.DeepBlue">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.DeepGreen" parent="Theme.Auxio.DeepGreen">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.DeepPurple" parent="Theme.Auxio.DeepPurple">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Green" parent="Theme.Auxio.Green">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Grey" parent="Theme.Auxio.Grey">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Indigo" parent="Theme.Auxio.Indigo">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Lime" parent="Theme.Auxio.Lime">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Orange" parent="Theme.Auxio.Orange">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Pink" parent="Theme.Auxio.Pink">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Purple" parent="Theme.Auxio.Purple">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Red" parent="Theme.Auxio.Red">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Teal" parent="Theme.Auxio.Teal">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Black.Yellow" parent="Theme.Auxio.Yellow">
+        <item name="colorSurface">@android:color/black</item>
+    </style>
+    <style name="Theme.Auxio.Blue" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/blue_primary</item>
+        <item name="colorOnPrimary">@color/blue_on_primary</item>
+        <item name="colorPrimaryInverse">@color/blue_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/blue_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/blue_on_primary_container</item>
+
+        <item name="colorSecondary">@color/blue_secondary</item>
+        <item name="colorOnSecondary">@color/blue_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/blue_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/blue_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/blue_tertiary</item>
+        <item name="colorOnTertiary">@color/blue_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/blue_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/blue_on_tertiary_container</item>
+
+        <item name="colorError">@color/blue_error</item>
+        <item name="colorOnError">@color/blue_on_error</item>
+        <item name="colorErrorContainer">@color/blue_error_container</item>
+        <item name="colorOnErrorContainer">@color/blue_on_error_container</item>
+
+        <item name="colorSurface">@color/blue_surface</item>
+        <item name="colorOnSurface">@color/blue_on_surface</item>
+        <item name="colorSurfaceInverse">@color/blue_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/blue_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/blue_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/blue_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Brown" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/brown_primary</item>
+        <item name="colorOnPrimary">@color/brown_on_primary</item>
+        <item name="colorPrimaryInverse">@color/brown_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/brown_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/brown_on_primary_container</item>
+
+        <item name="colorSecondary">@color/brown_secondary</item>
+        <item name="colorOnSecondary">@color/brown_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/brown_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/brown_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/brown_tertiary</item>
+        <item name="colorOnTertiary">@color/brown_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/brown_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/brown_on_tertiary_container</item>
+
+        <item name="colorError">@color/brown_error</item>
+        <item name="colorOnError">@color/brown_on_error</item>
+        <item name="colorErrorContainer">@color/brown_error_container</item>
+        <item name="colorOnErrorContainer">@color/brown_on_error_container</item>
+
+        <item name="colorSurface">@color/brown_surface</item>
+        <item name="colorOnSurface">@color/brown_on_surface</item>
+        <item name="colorSurfaceInverse">@color/brown_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/brown_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/brown_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/brown_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Cyan" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/cyan_primary</item>
+        <item name="colorOnPrimary">@color/cyan_on_primary</item>
+        <item name="colorPrimaryInverse">@color/cyan_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/cyan_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/cyan_on_primary_container</item>
+
+        <item name="colorSecondary">@color/cyan_secondary</item>
+        <item name="colorOnSecondary">@color/cyan_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/cyan_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/cyan_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/cyan_tertiary</item>
+        <item name="colorOnTertiary">@color/cyan_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/cyan_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/cyan_on_tertiary_container</item>
+
+        <item name="colorError">@color/cyan_error</item>
+        <item name="colorOnError">@color/cyan_on_error</item>
+        <item name="colorErrorContainer">@color/cyan_error_container</item>
+        <item name="colorOnErrorContainer">@color/cyan_on_error_container</item>
+
+        <item name="colorSurface">@color/cyan_surface</item>
+        <item name="colorOnSurface">@color/cyan_on_surface</item>
+        <item name="colorSurfaceInverse">@color/cyan_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/cyan_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/cyan_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/cyan_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.DeepBlue" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/deep_blue_primary</item>
+        <item name="colorOnPrimary">@color/deep_blue_on_primary</item>
+        <item name="colorPrimaryInverse">@color/deep_blue_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/deep_blue_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/deep_blue_on_primary_container</item>
+
+        <item name="colorSecondary">@color/deep_blue_secondary</item>
+        <item name="colorOnSecondary">@color/deep_blue_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/deep_blue_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/deep_blue_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/deep_blue_tertiary</item>
+        <item name="colorOnTertiary">@color/deep_blue_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/deep_blue_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/deep_blue_on_tertiary_container</item>
+
+        <item name="colorError">@color/deep_blue_error</item>
+        <item name="colorOnError">@color/deep_blue_on_error</item>
+        <item name="colorErrorContainer">@color/deep_blue_error_container</item>
+        <item name="colorOnErrorContainer">@color/deep_blue_on_error_container</item>
+
+        <item name="colorSurface">@color/deep_blue_surface</item>
+        <item name="colorOnSurface">@color/deep_blue_on_surface</item>
+        <item name="colorSurfaceInverse">@color/deep_blue_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/deep_blue_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/deep_blue_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/deep_blue_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.DeepGreen" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/deep_green_primary</item>
+        <item name="colorOnPrimary">@color/deep_green_on_primary</item>
+        <item name="colorPrimaryInverse">@color/deep_green_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/deep_green_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/deep_green_on_primary_container</item>
+
+        <item name="colorSecondary">@color/deep_green_secondary</item>
+        <item name="colorOnSecondary">@color/deep_green_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/deep_green_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/deep_green_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/deep_green_tertiary</item>
+        <item name="colorOnTertiary">@color/deep_green_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/deep_green_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/deep_green_on_tertiary_container</item>
+
+        <item name="colorError">@color/deep_green_error</item>
+        <item name="colorOnError">@color/deep_green_on_error</item>
+        <item name="colorErrorContainer">@color/deep_green_error_container</item>
+        <item name="colorOnErrorContainer">@color/deep_green_on_error_container</item>
+
+        <item name="colorSurface">@color/deep_green_surface</item>
+        <item name="colorOnSurface">@color/deep_green_on_surface</item>
+        <item name="colorSurfaceInverse">@color/deep_green_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/deep_green_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/deep_green_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/deep_green_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.DeepPurple" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/deep_purple_primary</item>
+        <item name="colorOnPrimary">@color/deep_purple_on_primary</item>
+        <item name="colorPrimaryInverse">@color/deep_purple_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/deep_purple_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/deep_purple_on_primary_container</item>
+
+        <item name="colorSecondary">@color/deep_purple_secondary</item>
+        <item name="colorOnSecondary">@color/deep_purple_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/deep_purple_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/deep_purple_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/deep_purple_tertiary</item>
+        <item name="colorOnTertiary">@color/deep_purple_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/deep_purple_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/deep_purple_on_tertiary_container</item>
+
+        <item name="colorError">@color/deep_purple_error</item>
+        <item name="colorOnError">@color/deep_purple_on_error</item>
+        <item name="colorErrorContainer">@color/deep_purple_error_container</item>
+        <item name="colorOnErrorContainer">@color/deep_purple_on_error_container</item>
+
+        <item name="colorSurface">@color/deep_purple_surface</item>
+        <item name="colorOnSurface">@color/deep_purple_on_surface</item>
+        <item name="colorSurfaceInverse">@color/deep_purple_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/deep_purple_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/deep_purple_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/deep_purple_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:checkedTextViewStyle">@style/Widget.Auxio.Dialog.CheckedTextView</item>
+    </style>
+    <style name="Theme.Auxio.Green" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/green_primary</item>
+        <item name="colorOnPrimary">@color/green_on_primary</item>
+        <item name="colorPrimaryInverse">@color/green_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/green_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/green_on_primary_container</item>
+
+        <item name="colorSecondary">@color/green_secondary</item>
+        <item name="colorOnSecondary">@color/green_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/green_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/green_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/green_tertiary</item>
+        <item name="colorOnTertiary">@color/green_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/green_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/green_on_tertiary_container</item>
+
+        <item name="colorError">@color/green_error</item>
+        <item name="colorOnError">@color/green_on_error</item>
+        <item name="colorErrorContainer">@color/green_error_container</item>
+        <item name="colorOnErrorContainer">@color/green_on_error_container</item>
+
+        <item name="colorSurface">@color/green_surface</item>
+        <item name="colorOnSurface">@color/green_on_surface</item>
+        <item name="colorSurfaceInverse">@color/green_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/green_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/green_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/green_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Grey" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/grey_primary</item>
+        <item name="colorOnPrimary">@color/grey_on_primary</item>
+        <item name="colorPrimaryInverse">@color/grey_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/grey_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/grey_on_primary_container</item>
+
+        <item name="colorSecondary">@color/grey_secondary</item>
+        <item name="colorOnSecondary">@color/grey_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/grey_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/grey_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/grey_tertiary</item>
+        <item name="colorOnTertiary">@color/grey_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/grey_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/grey_on_tertiary_container</item>
+
+        <item name="colorError">@color/grey_error</item>
+        <item name="colorOnError">@color/grey_on_error</item>
+        <item name="colorErrorContainer">@color/grey_error_container</item>
+        <item name="colorOnErrorContainer">@color/grey_on_error_container</item>
+
+        <item name="colorSurface">@color/grey_surface</item>
+        <item name="colorOnSurface">@color/grey_on_surface</item>
+        <item name="colorSurfaceInverse">@color/grey_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/grey_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/grey_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/grey_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Indigo" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/indigo_primary</item>
+        <item name="colorOnPrimary">@color/indigo_on_primary</item>
+        <item name="colorPrimaryInverse">@color/indigo_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/indigo_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/indigo_on_primary_container</item>
+
+        <item name="colorSecondary">@color/indigo_secondary</item>
+        <item name="colorOnSecondary">@color/indigo_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/indigo_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/indigo_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/indigo_tertiary</item>
+        <item name="colorOnTertiary">@color/indigo_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/indigo_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/indigo_on_tertiary_container</item>
+
+        <item name="colorError">@color/indigo_error</item>
+        <item name="colorOnError">@color/indigo_on_error</item>
+        <item name="colorErrorContainer">@color/indigo_error_container</item>
+        <item name="colorOnErrorContainer">@color/indigo_on_error_container</item>
+
+        <item name="colorSurface">@color/indigo_surface</item>
+        <item name="colorOnSurface">@color/indigo_on_surface</item>
+        <item name="colorSurfaceInverse">@color/indigo_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/indigo_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/indigo_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/indigo_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Lime" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/lime_primary</item>
+        <item name="colorOnPrimary">@color/lime_on_primary</item>
+        <item name="colorPrimaryInverse">@color/lime_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/lime_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/lime_on_primary_container</item>
+
+        <item name="colorSecondary">@color/lime_secondary</item>
+        <item name="colorOnSecondary">@color/lime_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/lime_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/lime_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/lime_tertiary</item>
+        <item name="colorOnTertiary">@color/lime_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/lime_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/lime_on_tertiary_container</item>
+
+        <item name="colorError">@color/lime_error</item>
+        <item name="colorOnError">@color/lime_on_error</item>
+        <item name="colorErrorContainer">@color/lime_error_container</item>
+        <item name="colorOnErrorContainer">@color/lime_on_error_container</item>
+
+        <item name="colorSurface">@color/lime_surface</item>
+        <item name="colorOnSurface">@color/lime_on_surface</item>
+        <item name="colorSurfaceInverse">@color/lime_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/lime_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/lime_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/lime_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Orange" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorOnPrimary">@color/orange_on_primary</item>
+        <item name="colorPrimaryInverse">@color/orange_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/orange_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/orange_on_primary_container</item>
+
+        <item name="colorSecondary">@color/orange_secondary</item>
+        <item name="colorOnSecondary">@color/orange_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/orange_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/orange_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/orange_tertiary</item>
+        <item name="colorOnTertiary">@color/orange_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/orange_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/orange_on_tertiary_container</item>
+
+        <item name="colorError">@color/orange_error</item>
+        <item name="colorOnError">@color/orange_on_error</item>
+        <item name="colorErrorContainer">@color/orange_error_container</item>
+        <item name="colorOnErrorContainer">@color/orange_on_error_container</item>
+
+        <item name="colorSurface">@color/orange_surface</item>
+        <item name="colorOnSurface">@color/orange_on_surface</item>
+        <item name="colorSurfaceInverse">@color/orange_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/orange_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/orange_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/orange_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Pink" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/pink_primary</item>
+        <item name="colorOnPrimary">@color/pink_on_primary</item>
+        <item name="colorPrimaryInverse">@color/pink_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/pink_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/pink_on_primary_container</item>
+
+        <item name="colorSecondary">@color/pink_secondary</item>
+        <item name="colorOnSecondary">@color/pink_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/pink_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/pink_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/pink_tertiary</item>
+        <item name="colorOnTertiary">@color/pink_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/pink_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/pink_on_tertiary_container</item>
+
+        <item name="colorError">@color/pink_error</item>
+        <item name="colorOnError">@color/pink_on_error</item>
+        <item name="colorErrorContainer">@color/pink_error_container</item>
+        <item name="colorOnErrorContainer">@color/pink_on_error_container</item>
+
+        <item name="colorSurface">@color/pink_surface</item>
+        <item name="colorOnSurface">@color/pink_on_surface</item>
+        <item name="colorSurfaceInverse">@color/pink_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/pink_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/pink_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/pink_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Purple" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorOnPrimary">@color/purple_on_primary</item>
+        <item name="colorPrimaryInverse">@color/purple_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/purple_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/purple_on_primary_container</item>
+
+        <item name="colorSecondary">@color/purple_secondary</item>
+        <item name="colorOnSecondary">@color/purple_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/purple_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/purple_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/purple_tertiary</item>
+        <item name="colorOnTertiary">@color/purple_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/purple_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/purple_on_tertiary_container</item>
+
+        <item name="colorError">@color/purple_error</item>
+        <item name="colorOnError">@color/purple_on_error</item>
+        <item name="colorErrorContainer">@color/purple_error_container</item>
+        <item name="colorOnErrorContainer">@color/purple_on_error_container</item>
+
+        <item name="colorSurface">@color/purple_surface</item>
+        <item name="colorOnSurface">@color/purple_on_surface</item>
+        <item name="colorSurfaceInverse">@color/purple_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/purple_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/purple_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/purple_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Red" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/red_primary</item>
+        <item name="colorOnPrimary">@color/red_on_primary</item>
+        <item name="colorPrimaryInverse">@color/red_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/red_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/red_on_primary_container</item>
+
+        <item name="colorSecondary">@color/red_secondary</item>
+        <item name="colorOnSecondary">@color/red_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/red_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/red_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/red_tertiary</item>
+        <item name="colorOnTertiary">@color/red_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/red_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/red_on_tertiary_container</item>
+
+        <item name="colorError">@color/red_error</item>
+        <item name="colorOnError">@color/red_on_error</item>
+        <item name="colorErrorContainer">@color/red_error_container</item>
+        <item name="colorOnErrorContainer">@color/red_on_error_container</item>
+
+        <item name="colorSurface">@color/red_surface</item>
+        <item name="colorOnSurface">@color/red_on_surface</item>
+        <item name="colorSurfaceInverse">@color/red_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/red_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/red_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/red_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.Teal" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/teal_primary</item>
+        <item name="colorOnPrimary">@color/teal_on_primary</item>
+        <item name="colorPrimaryInverse">@color/teal_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/teal_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/teal_on_primary_container</item>
+
+        <item name="colorSecondary">@color/teal_secondary</item>
+        <item name="colorOnSecondary">@color/teal_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/teal_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/teal_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/teal_tertiary</item>
+        <item name="colorOnTertiary">@color/teal_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/teal_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/teal_on_tertiary_container</item>
+
+        <item name="colorError">@color/teal_error</item>
+        <item name="colorOnError">@color/teal_on_error</item>
+        <item name="colorErrorContainer">@color/teal_error_container</item>
+        <item name="colorOnErrorContainer">@color/teal_on_error_container</item>
+
+        <item name="colorSurface">@color/teal_surface</item>
+        <item name="colorOnSurface">@color/teal_on_surface</item>
+        <item name="colorSurfaceInverse">@color/teal_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/teal_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/teal_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/teal_on_surface_variant</item>
+    </style>
+    <style name="Theme.Auxio.V23" parent="Theme.Auxio"/>
+    <style name="Theme.Auxio.V27" parent="Theme.Auxio.V23">
+        <item name="android:statusBarColor">@color/chrome_translucent</item>
+        <item name="android:navigationBarColor">@color/chrome_translucent</item>
+    </style>
+    <style name="Theme.Auxio.V29" parent="Theme.Auxio.V27"/>
+    <style name="Theme.Auxio.V31" parent="Theme.Auxio.V29"/>
+    <style name="Theme.Auxio.Widget" parent="@style/Theme.Auxio.Blue"/>
+    <style name="Theme.Auxio.Yellow" parent="Theme.Auxio.Base">
+        <item name="colorPrimary">@color/yellow_primary</item>
+        <item name="colorOnPrimary">@color/yellow_on_primary</item>
+        <item name="colorPrimaryInverse">@color/yellow_primary_inverse</item>
+        <item name="colorPrimaryContainer">@color/yellow_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/yellow_on_primary_container</item>
+
+        <item name="colorSecondary">@color/yellow_secondary</item>
+        <item name="colorOnSecondary">@color/yellow_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/yellow_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/yellow_on_secondary_container</item>
+
+        <item name="colorTertiary">@color/yellow_tertiary</item>
+        <item name="colorOnTertiary">@color/yellow_on_tertiary</item>
+        <item name="colorTertiaryContainer">@color/yellow_tertiary_container</item>
+        <item name="colorOnTertiaryContainer">@color/yellow_on_tertiary_container</item>
+
+        <item name="colorError">@color/yellow_error</item>
+        <item name="colorOnError">@color/yellow_on_error</item>
+        <item name="colorErrorContainer">@color/yellow_error_container</item>
+        <item name="colorOnErrorContainer">@color/yellow_on_error_container</item>
+
+        <item name="colorSurface">@color/yellow_surface</item>
+        <item name="colorOnSurface">@color/yellow_on_surface</item>
+        <item name="colorSurfaceInverse">@color/yellow_surface_inverse</item>
+        <item name="colorOnSurfaceInverse">@color/yellow_on_surface_inverse</item>
+        <item name="colorSurfaceVariant">@color/yellow_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/yellow_on_surface_variant</item>
+    </style>
+    <style name="ThemeOverlay.Accent" parent="">
+        <item name="colorOnPrimary">?attr/colorSurface</item>
+    </style>
+    <style name="ThemeOverlay.Auxio.UncheckableIconButton" parent="">
+        <item name="colorContainer">@android:color/transparent</item>
+        <item name="colorOnContainer">?attr/colorOnSurfaceVariant</item>
+    </style>
+    <style name="Widget.Auxio.AppBarLayout" parent="Widget.Material3.AppBarLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="Widget.Auxio.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="marginLeftSystemWindowInsets">false</item>
+        <item name="marginRightSystemWindowInsets">false</item>
+        <item name="paddingBottomSystemWindowInsets">false</item>
+        <item name="paddingTopSystemWindowInsets">false</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.None</item>
+        <item name="shouldRemoveExpandedCorners">true</item>
+    </style>
+    <style name="Widget.Auxio.BottomSheet.Dialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.Auxio.BottomSheet.Modal</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Auxio.BottomSheet.Dialog</item>
+    </style>
+    <style name="Widget.Auxio.BottomSheet.Handle" parent="Widget.Material3.BottomSheet.DragHandle">
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+    <style name="Widget.Auxio.BottomSheet.Modal" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="marginLeftSystemWindowInsets">false</item>
+        <item name="marginRightSystemWindowInsets">false</item>
+        <item name="paddingBottomSystemWindowInsets">false</item>
+        <item name="paddingTopSystemWindowInsets">false</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.None</item>
+        <item name="shouldRemoveExpandedCorners">true</item>
+    </style>
+    <style name="Widget.Auxio.Button.Icon.Base" parent="Widget.Material3.Button.IconButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Auxio.UncheckableIconButton</item>
+    </style>
+    <style name="Widget.Auxio.Button.Icon.Large" parent="Widget.Auxio.Button.Icon.Base">
+        <item name="iconSize">@dimen/size_icon_medium</item>
+        <item name="android:minWidth">@dimen/size_btn</item>
+        <item name="android:minHeight">@dimen/size_btn</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:paddingStart">@dimen/spacing_small</item>
+        <item name="android:paddingEnd">@dimen/spacing_small</item>
+        <item name="android:paddingTop">@dimen/spacing_small</item>
+        <item name="android:paddingBottom">@dimen/spacing_small</item>
+        <item name="iconTint">@color/m3_text_button_foreground_color_selector</item>
+    </style>
+    <style name="Widget.Auxio.Button.Icon.Small" parent="Widget.Auxio.Button.Icon.Base">
+        <item name="iconSize">@dimen/size_icon_small</item>
+        <item name="android:minWidth">@dimen/size_btn</item>
+        <item name="android:minHeight">@dimen/size_btn</item>
+        <item name="android:insetTop">@dimen/spacing_tiny</item>
+        <item name="android:insetBottom">@dimen/spacing_tiny</item>
+        <item name="android:insetLeft">@dimen/spacing_tiny</item>
+        <item name="android:insetRight">@dimen/spacing_tiny</item>
+        <item name="android:paddingStart">@dimen/spacing_small</item>
+        <item name="android:paddingEnd">@dimen/spacing_small</item>
+        <item name="android:paddingTop">@dimen/spacing_small</item>
+        <item name="android:paddingBottom">@dimen/spacing_small</item>
+        
+        <item name="iconTint">@color/m3_text_button_foreground_color_selector</item>
+    </style>
+    <style name="Widget.Auxio.Button.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:minWidth">@dimen/size_btn</item>
+        <item name="android:minHeight">@dimen/size_btn</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+    <style name="Widget.Auxio.Button.PlayPause" parent="Widget.Material3.Button.IconButton.Filled.Tonal">
+        <item name="android:minWidth">@dimen/size_play_pause_button</item>
+        <item name="android:minHeight">@dimen/size_play_pause_button</item>
+        <item name="iconSize">@dimen/size_icon_medium</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:paddingStart">@dimen/spacing_mid_large</item>
+        <item name="android:paddingEnd">@dimen/spacing_mid_large</item>
+        <item name="android:paddingTop">@dimen/spacing_mid_large</item>
+        <item name="android:paddingBottom">@dimen/spacing_mid_large</item>
+        <item name="shapeAppearanceOverlay">
+            @style/ShapeAppearanceOverlay.Material3.FloatingActionButton
+        </item>
+        <item name="iconTint">@color/m3_text_button_foreground_color_selector</item>
+    </style>
+    <style name="Widget.Auxio.Button.Primary" parent="Widget.Material3.Button"/>
+    <style name="Widget.Auxio.Button.Secondary" parent="Widget.Material3.Button.TonalButton"/>
+    <style name="Widget.Auxio.Dialog.CheckedTextView" parent="Widget.Material3.CheckedTextView">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Widget.Auxio.Dialog.NestedScrollView" parent="">
+        <item name="android:overScrollMode">never</item>
+        <item name="android:paddingTop">@dimen/spacing_medium</item>
+
+        
+        <item name="android:scrollIndicators" ns1:ignore="NewApi">top|bottom</item>
+    </style>
+    <style name="Widget.Auxio.DisableDropShadows" parent="">
+        
+        <item name="android:outlineAmbientShadowColor" ns1:ignore="NewApi">
+            @android:color/transparent
+        </item>
+        <item name="android:outlineSpotShadowColor" ns1:ignore="NewApi">
+            @android:color/transparent
+        </item>
+    </style>
+    <style name="Widget.Auxio.FloatingActionButton.Adaptive" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="fabSize">normal</item>
+    </style>
+    <style name="Widget.Auxio.Image.Full" parent="">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_constraintDimensionRatio">1</item>
+        <item name="sizing">large</item>
+    </style>
+    <style name="Widget.Auxio.Image.Huge" parent="">
+        <item name="android:layout_width">@dimen/size_cover_huge</item>
+        <item name="android:layout_height">@dimen/size_cover_huge</item>
+        <item name="sizing">large</item>
+    </style>
+    <style name="Widget.Auxio.Image.Large" parent="">
+        <item name="android:layout_width">@dimen/size_cover_large</item>
+        <item name="android:layout_height">@dimen/size_cover_large</item>
+        <item name="sizing">large</item>
+    </style>
+    <style name="Widget.Auxio.Image.Medium" parent="">
+        <item name="android:layout_width">@dimen/size_cover_medium</item>
+        <item name="android:layout_height">@dimen/size_cover_medium</item>
+        <item name="sizing">medium</item>
+    </style>
+    <style name="Widget.Auxio.Image.MidHuge" parent="">
+        <item name="android:layout_width">@dimen/size_cover_mid_huge</item>
+        <item name="android:layout_height">@dimen/size_cover_mid_huge</item>
+        <item name="sizing">large</item>
+    </style>
+    <style name="Widget.Auxio.Image.Small" parent="">
+        <item name="android:layout_width">@dimen/size_cover_compact</item>
+        <item name="android:layout_height">@dimen/size_cover_compact</item>
+        <item name="sizing">small</item>
+    </style>
+    <style name="Widget.Auxio.LinearProgressIndicator" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="trackColor">@color/sel_track</item>
+        <item name="trackCornerRadius">@dimen/size_corners_medium</item>
+    </style>
+    <style name="Widget.Auxio.MaterialButton.AppWidget" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:minHeight">@dimen/size_btn</item>
+        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="Widget.Auxio.MaterialButton.AppWidget.PlayPause" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:minWidth">@dimen/size_btn</item>
+        <item name="android:background">@drawable/ui_remote_fab_container_paused</item>
+        <item name="android:tint">?attr/colorOnPrimary</item>
+    </style>
+    <style name="Widget.Auxio.RecyclerView.Grid" parent="Widget.Auxio.RecyclerView.Grid.Base"/>
+    <style name="Widget.Auxio.RecyclerView.Grid.Base" parent="">
+        <item name="layoutManager">androidx.recyclerview.widget.GridLayoutManager</item>
+    </style>
+    <style name="Widget.Auxio.RecyclerView.Grid.WithAdaptiveFab" parent="Widget.Auxio.RecyclerView.Grid">
+        <item name="android:paddingBottom">@dimen/recycler_fab_space_normal</item>
+    </style>
+    <style name="Widget.Auxio.RecyclerView.Linear" parent="">
+        <item name="layoutManager">androidx.recyclerview.widget.LinearLayoutManager</item>
+    </style>
+    <style name="Widget.Auxio.Slider" parent="Widget.Material3.Slider">
+        <item name="trackColorInactive">@color/sel_track</item>
+        <item name="haloRadius">@dimen/spacing_medium</item>
+        <item name="thumbRadius">@dimen/slider_thumb_radius</item>
+        <item name="labelBehavior">gone</item>
+        <item name="tickVisible">false</item>
+    </style>
+    <style name="Widget.Auxio.TextView.AppWidget" parent="Widget.Auxio.TextView.Base">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Base" parent="Widget.AppCompat.TextView">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Detail" parent="Widget.Auxio.TextView.Base">
+        <item name="android:textAppearance">@style/TextAppearance.Auxio.TitleLarge</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Header" parent="Widget.Auxio.TextView.Base">
+        <item name="android:paddingStart">@dimen/spacing_medium</item>
+        <item name="android:paddingTop">@dimen/spacing_small</item>
+        <item name="android:paddingBottom">@dimen/spacing_small</item>
+        <item name="android:paddingEnd">@dimen/spacing_medium</item>
+        <item name="android:minHeight">@dimen/size_btn</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">?attr/colorSecondary</item>
+        <item name="android:textAppearance">@style/TextAppearance.Auxio.LabelLarge</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Icon" parent="Widget.Auxio.TextView.Base">
+        <item name="android:drawablePadding">@dimen/spacing_medium</item>
+        <item name="android:paddingTop">@dimen/spacing_mid_medium</item>
+        <item name="android:paddingStart">@dimen/spacing_medium</item>
+        <item name="android:paddingBottom">@dimen/spacing_mid_medium</item>
+        <item name="android:paddingEnd">@dimen/spacing_medium</item>
+        <item name="android:textAppearance">@style/TextAppearance.Auxio.BodyLarge</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Icon.Clickable" parent="Widget.Auxio.TextView.Icon">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Item.Base" parent="Widget.Auxio.TextView.Base">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginStart">@dimen/spacing_medium</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Item.Primary" parent="Widget.Auxio.TextView.Item.Base">
+        <item name="android:textAppearance">@style/TextAppearance.Auxio.TitleMedium
+        </item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Item.Secondary" parent="Widget.Auxio.TextView.Item.Base">
+        <item name="android:textAppearance">@style/TextAppearance.Auxio.BodyMedium</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Primary" parent="Widget.Auxio.TextView.Base">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:textAppearance">@style/TextAppearance.Auxio.TitleLarge</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Primary.AppWidget" parent="Widget.Auxio.TextView.AppWidget">
+        <item name="android:textAppearance">@style/TextAppearance.Material3.TitleMedium</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Primary.Compact" parent="Widget.Auxio.TextView.Base">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textAppearance">@style/TextAppearance.Auxio.LabelLarge</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Secondary.AppWidget" parent="Widget.Auxio.TextView.AppWidget">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyMedium</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Secondary.Base" parent="Widget.Auxio.TextView.Base">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textAppearance">@style/TextAppearance.Auxio.BodyLarge</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Secondary.Compact" parent="Widget.Auxio.TextView.Base">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textAppearance">@style/TextAppearance.Auxio.BodySmall</item>
+    </style>
+    <style name="Widget.Auxio.TextView.Secondary.Ellipsize" parent="Widget.Auxio.TextView.Secondary.Base">
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+
+    </style>
+    <style name="Widget.Auxio.TextView.Secondary.Marquee" parent="Widget.Auxio.TextView.Secondary.Base">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    <style name="Widget.Auxio.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="maxButtonHeight">@dimen/size_btn</item>
+        <item name="android:paddingLeft">@dimen/spacing_tiny</item>
+        <item name="android:paddingStart">@dimen/spacing_tiny</item>
+        <item name="android:paddingRight">@dimen/spacing_tiny</item>
+        <item name="android:paddingEnd">@dimen/spacing_tiny</item>
+    </style>
+    <style name="Widget.Auxio.Toolbar.Navigation" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">@dimen/size_btn</item>
+    </style>
+    <declare-styleable name="CoverView">
+        <attr format="dimension" name="cornerRadius"/>
+        <attr format="enum" name="sizing">
+            <enum name="small" value="0"/>
+            <enum name="medium" value="1"/>
+            <enum name="large" value="2"/>
+        </attr>
+        <attr format="boolean" name="enablePlaybackIndicator"/>
+        <attr format="boolean" name="enableSelectionBadge"/>
+    </declare-styleable>
+    <declare-styleable name="IntListPreference">
+        <attr format="reference" name="entries"/>
+        <attr format="reference" name="entryValues"/>
+        <attr format="reference" name="entryIcons"/>
+        <attr format="reference" name="offValue"/>
+    </declare-styleable>
+</resources>

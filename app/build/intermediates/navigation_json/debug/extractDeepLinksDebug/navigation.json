@@ -1,0 +1,12 @@
+[
+  {
+    "name": "inner",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "outer",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]
